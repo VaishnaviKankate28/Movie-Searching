@@ -2,6 +2,8 @@
 (function () {
   const title = document.getElementById("title");
   title.innerHTML = localStorage.getItem("movieName");
+  const mtitle = document.getElementById("mtitle");
+  mtitle.innerHTML = localStorage.getItem("movieName");
   const year = document.getElementById("year");
   const runtime = document.getElementById("runtime");
   const rating = document.getElementById("rating");
@@ -12,6 +14,8 @@
   const genre = document.getElementById("genre");
 
   fetchMovies(title.innerHTML);
+
+  fetchMovies(mtitle.innerHTML);
 
   async function fetchMovies(search) {
     const url = `https://www.omdbapi.com/?t=${search}&type=movie&apikey=a814f5a9`;

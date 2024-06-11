@@ -153,7 +153,7 @@
           "d-flex",
           "justify-content-between",
           "align-content-center",
-          "my-2"
+          "my-4"
         );
         div.innerHTML = `
    

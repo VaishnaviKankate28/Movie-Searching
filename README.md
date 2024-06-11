@@ -2,17 +2,17 @@ This Project is about a mini IMDB clone app in which we can search movies based 
 
 Tools used:
 
-HTML
-CSS
-Bootstrap
-JavaScript
+HTML5,
+CSS3,
+Bootstrap v5.3,
+JavaScript,
 OMDB API
 
 Functionality
 
-Search movies with suggestions
-Click on Movie card for more info
-Add a movie to the favourites list
-Delete movie from the favourites list
+Search movies with suggestions, 
+Click on Movie card for more info, 
+Add a movie to the favourites list, 
+Delete movie from the favourites list, 
 Data
 
